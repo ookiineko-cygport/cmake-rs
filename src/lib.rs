@@ -481,6 +481,7 @@ impl Config {
                         ("openbsd", "x86_64") => ("OpenBSD", "amd64"),
                         ("openbsd", arch) => ("OpenBSD", arch),
                         ("solaris", arch) => ("SunOS", arch),
+                        ("cygwin", arch) => ("CYGWIN", arch),
                         ("tvos", arch) => ("tvOS", arch),
                         ("watchos", arch) => ("watchOS", arch),
                         ("windows", "x86_64") => ("Windows", "AMD64"),
